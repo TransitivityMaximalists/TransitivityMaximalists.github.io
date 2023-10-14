@@ -85,35 +85,35 @@ h1, h2, h3, h4 {
 <h4><span class="s2">October 26, 2023<br />
 Princeton University, NJ, USA</span></h4>
 
-  <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background Circle -->
-  <circle cx="200" cy="200" r="180" fill="#e0e0e0" />
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Nodes arranged in a heptagonal (7-sided polygon) pattern -->
+    <circle cx="200" cy="100" r="20" fill="#008CBA" />
+    <circle cx="313.4" cy="150" r="20" fill="#E63946" />
+    <circle cx="313.4" cy="250" r="20" fill="#2A9D8F" />
+    <circle cx="200" cy="300" r="20" fill="#F4A261" />
+    <circle cx="86.6" cy="250" r="20" fill="#2C3E50" />
+    <circle cx="86.6" cy="150" r="20" fill="#8E44AD" />
+    <circle cx="200" cy="200" r="20" fill="#D35400" />
 
-  <!-- Nodes -->
-  <circle cx="200" cy="100" r="20" fill="#008CBA" />
-  <circle cx="100" cy="300" r="20" fill="#E63946" />
-  <circle cx="300" cy="300" r="20" fill="#2A9D8F" />
-  <circle cx="200" cy="300" r="20" fill="#F4A261" />
-  <circle cx="150" cy="200" r="20" fill="#2C3E50" />
-  <circle cx="250" cy="200" r="20" fill="#8E44AD" />
-  <circle cx="200" cy="200" r="20" fill="#D35400" />
+    <!-- Edges with arrowheads to indicate flow -->
+    <path d="M200,120 L313.4,150 L313.4,250 L200,280 L86.6,250 L86.6,150 Z" stroke="#333" stroke-width="2" fill="none" />
+    <path d="M200,200 L200,120" stroke="#333" stroke-width="2" />
+    <path d="M200,200 L86.6,150" stroke="#333" stroke-width="2" />
+    <path d="M200,200 L86.6,250" stroke="#333" stroke-width="2" />
+    <path d="M200,200 L313.4,150" stroke="#333" stroke-width="2" />
+    <path d="M200,200 L313.4,250" stroke="#333" stroke-width="2" />
 
-  <!-- Edges -->
-  <line x1="200" y1="100" x2="200" y2="200" stroke="#333" stroke-width="2" />
-  <line x1="200" y1="200" x2="150" y2="200" stroke="#333" stroke-width="2" />
-  <line x1="200" y1="200" x2="250" y2="200" stroke="#333" stroke-width="2" />
-  <line x1="200" y1="200" x2="200" y2="300" stroke="#333" stroke-width="2" />
-  <line x1="200" y1="300" x2="100" y2="300" stroke="#333" stroke-width="2" />
-  <line x1="200" y1="300" x2="300" y2="300" stroke="#333" stroke-width="2" />
+    <!-- Arrowheads -->
+    <polygon points="200,120 190,130 210,130" fill="#333" />
+    <polygon points="313.4,150 303.4,140 303.4,160" fill="#333" />
+    <polygon points="313.4,250 303.4,240 303.4,260" fill="#333" />
+    <polygon points="200,280 190,270 210,270" fill="#333" />
+    <polygon points="86.6,250 96.6,240 96.6,260" fill="#333" />
+    <polygon points="86.6,150 96.6,140 96.6,160" fill="#333" />
+</svg>
+  
 
-  <!-- Arrowheads to indicate flow -->
-  <polygon points="200,100 210,110 190,110" fill="#333" />
-  <polygon points="150,200 140,210 140,190" fill="#333" />
-  <polygon points="250,200 260,210 260,190" fill="#333" />
-  <polygon points="200,300 210,290 190,290" fill="#333" />
-  <polygon points="100,300 90,310 90,290" fill="#333" />
-  <polygon points="300,300 310,310 310,290" fill="#333" />
-  </svg>
+  
   
   
 <p ><span class="s2">Credit networks are important financial constructs with applications spanning from clearing transactions between central banks to fostering informal credit exchanges among individuals and small businesses. These networks allow transitive transactions, where local trust can be leveraged to power expansive interactions that traverse the entire network diameter. Distinguished from the surge of cryptocurrencies, credit networks offer a unique proposition by enabling seamless transactions across conventional fiat currencies, cryptocurrencies, and user-defined currencies, all facilitated through IOU credit paths.</span></p>
